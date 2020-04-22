@@ -10,6 +10,26 @@ Creating time quizzes for others to do.
 
 ## Usage
 
+### Build Files
+
+You only need to do this if you want to modify the source files. If you just want to set up the quiz for your users, skip the subsection.
+
+You need to have NodeJS and NPM installed.
+
+Run
+```
+npm install
+npm run build
+```
+
+Development Mode
+```
+npm run start
+```
+Then open ./dist/index.html in your browser.
+
+### Setup Google Sheets and App Script
+
 1. Create a Google Sheet
 2. Create 5 separate spreadsheets: "Meta", "Login", "Questions", "Responses" and "Save".
     1. "Meta" is a list of information about the whole form. The First Column of the Meta will be the keys while second column will be value.
@@ -48,4 +68,3 @@ Creating time quizzes for others to do.
 7. You are good to go. Share the given link with others to access the quiz.
     - You can always edit the form and the quiz will be updated dynamically.
     - The App Script link is hard to read. You can always use a URL Shortener to share the link.
-
