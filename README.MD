@@ -37,7 +37,7 @@ Then open ./dist/index.html in your browser.
         - Fill up "Submit Text" in "A2" and the text you want to display to users when they submit the quiz in "B2".
         - Fill up "Duration(mins)" in "A3" and the duration of your quiz in minutes in "B3".
 
-    ![Meta Sheet Example](https://raw.githubusercontent.com/pangyiwei/react-gs-quiz/master/docs/meta-sheet.png)
+    ![Meta Sheet Example](https://raw.githubusercontent.com/pangyiwei/react-gs-quiz/master/docs/meta-sheet.PNG)
 
     2. "Login" is for your quiz takers.
         - Fill up "Id" in "A1". This will be used by the script.
@@ -60,7 +60,7 @@ Then open ./dist/index.html in your browser.
         - Fill up "Options" in D1. This is applicable only if Type is "multipleChoice". Fill up your options as follows (include the brackets): ["option1 text", "option2 text", "option3 text", ...]
             e.g. ["a", "b", "a and b", "All of the above"]
 
-    ![Questions Sheet Example](https://raw.githubusercontent.com/pangyiwei/react-gs-quiz/master/docs/questions-sheet.png)
+    ![Questions Sheet Example](https://raw.githubusercontent.com/pangyiwei/react-gs-quiz/master/docs/questions-sheet.PNG)
 
     4. "Responses" is where the results are collated. Each row represents a response. The first column will be the name of submitter followed by his answers in the order of the given questions.
     5. "Save". You can leave this sheet empty. It is used by the script to allow saving of responses.
