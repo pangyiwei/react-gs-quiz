@@ -16,13 +16,13 @@ You only need to do this if you want to modify the source files. If you just wan
 
 You need to have NodeJS and NPM installed.
 
-Run
+#### Build
 ```
 npm install
 npm run build
 ```
 
-Development Mode
+#### Development Mode
 ```
 npm run start
 ```
