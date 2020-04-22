@@ -32,15 +32,21 @@ Then open ./dist/index.html in your browser.
 
 1. Create a Google Sheet
 2. Create 5 separate spreadsheets: "Meta", "Login", "Questions", "Responses" and "Save".
-    1. "Meta" is a list of information about the whole form. The First Column of the Meta will be the keys while second column will be value.
+    1. "Meta" is a list of information about the whole quiz. The First Column of the Meta will be the keys while second column will be value.
         - Fill up "Title" in "A1" and the Title of your quiz in "B1".
         - Fill up "Submit Text" in "A2" and the text you want to display to users when they submit the quiz in "B2".
         - Fill up "Duration(mins)" in "A3" and the duration of your quiz in minutes in "B3".
+
+    ![alt text](https://github.com/pangyiwei/react-gs-quiz/docs/meta-sheet.png "Meta Sheet Example")
+
     2. "Login" is for your quiz takers.
         - Fill up "Id" in "A1". This will be used by the script.
-        - Fill up "Code" in "B1". This is where you assign passcodes to your quiz takers which they will enter in order to take the quiz.
+        - Fill up "Code" in "B1". This is where you assign passcodes to your quiz takers which they will enter in order to take the quiz. Do note that you have to issue unique codes to all your quiz takers.
         - Fill up "Name" in "C1". This column is for the Names of your quiz takers.
         - Fill up "End Time" in "D1" this is used by the script.
+
+    ![alt text](https://github.com/pangyiwei/react-gs-quiz/docs/login-sheet.png "Login Sheet Example")
+
     3. "Questions" is for the quiz questions. 
         - Fill up "Question" in "A1". This is where your questions will go
         - Fill up "Type" in "B1". This state the type of your questions. It should be either:
@@ -53,6 +59,9 @@ Then open ./dist/index.html in your browser.
         - Fill up label in "C1". This will be the label for the answer box in the quiz.
         - Fill up "Options" in D1. This is applicable only if Type is "multipleChoice". Fill up your options as follows (include the brackets): ["option1 text", "option2 text", "option3 text", ...]
             e.g. ["a", "b", "a and b", "All of the above"]
+
+    ![alt text](https://github.com/pangyiwei/react-gs-quiz/docs/questions-sheet.png "Questions Sheet Example")
+
     4. "Responses" is where the results are collated. Each row represents a response. The first column will be the name of submitter followed by his answers in the order of the given questions.
     5. "Save". You can leave this sheet empty. It is used by the script to allow saving of responses.
 3. Go to tools > Script Editor
