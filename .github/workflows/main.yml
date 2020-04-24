@@ -24,4 +24,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Try to build
-      run: npm run build
+      run: |
+        npm install
+        npm run build
